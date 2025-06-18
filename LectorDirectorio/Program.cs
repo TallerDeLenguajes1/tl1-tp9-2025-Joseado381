@@ -1,4 +1,4 @@
-﻿
+﻿// LectorDirectorio
 
 using System;
 using System.IO;
@@ -24,10 +24,7 @@ string[] directorios = Directory.GetDirectories(path);
 
 foreach (var directorio in directorios)
 {
-    System.Console.WriteLine();
-    System.Console.WriteLine($"directorio: {directorio}");
-    System.Console.WriteLine("---------------------------");
-
+    System.Console.WriteLine($"├── 📁 {directorio}");
 }
 
 Console.WriteLine("Ingrese el nombre del directorio a listar:");

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josea\\Desktop\\tl1-tp9-2025-Joseado381\\tl1-tp9-2025-Joseado381\\LectorDirectorio\\LectorDirectorio.csproj",
+      "projectUniqueName": "C:\\Users\\josea\\Desktop\\FACET\\TallerdeLenguaje\\tl1-tp9-2025-Joseado381\\LectorDirectorio\\LectorDirectorio.csproj",
       "projectName": "LectorDirectorio",
-      "projectPath": "C:\\Users\\josea\\Desktop\\tl1-tp9-2025-Joseado381\\tl1-tp9-2025-Joseado381\\LectorDirectorio\\LectorDirectorio.csproj",
+      "projectPath": "C:\\Users\\josea\\Desktop\\FACET\\TallerdeLenguaje\\tl1-tp9-2025-Joseado381\\LectorDirectorio\\LectorDirectorio.csproj",
       "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josea\\Desktop\\tl1-tp9-2025-Joseado381\\tl1-tp9-2025-Joseado381\\LectorDirectorio\\obj\\",
+      "outputPath": "C:\\Users\\josea\\Desktop\\FACET\\TallerdeLenguaje\\tl1-tp9-2025-Joseado381\\LectorDirectorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
