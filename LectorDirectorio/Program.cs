@@ -27,4 +27,14 @@ foreach (var directorio in directorios)
     System.Console.WriteLine($"├── 📁 {directorio}");
 }
 
-Console.WriteLine("Ingrese el nombre del directorio a listar:");
+DirectoryInfo directory = new DirectoryInfo(path);
+FileInfo[] files = directory.GetFiles();
+List<string> lineasCombinadas = new List<string>();
+lineasCombinadas.Add("Nombre , Tamaño , UltimoAcceso");
+foreach (FileInfo file in files)
+{
+    Console.WriteLine($"Nombre: {file.Name}, Tamaño: {file.Length} bytes");
+    lineasCombinadas.Add($"{file.Name},{file.Length},{file.LastAccessTime:dd-MM-yyyy HH:mm:ss}");
+}
+string rutaParaGuardar = Path.Combine(path, "reporte_archivos.csv");
+File.WriteAllLines(rutaParaGuardar, lineasCombinadas);
